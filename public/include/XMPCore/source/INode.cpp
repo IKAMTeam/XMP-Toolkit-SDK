@@ -13,17 +13,17 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::INodeProxy;
 
-#include "XMPCore/Interfaces/INode.h"
+#include "../Interfaces/INode.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCore/Interfaces/IPath.h"
-#include "XMPCore/Interfaces/ISimpleNode.h"
-#include "XMPCore/Interfaces/INodeIterator.h"
-#include "XMPCore/Interfaces/IArrayNode.h"
-#include "XMPCore/Interfaces/IMetadata.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
+#include "../Interfaces/IPath.h"
+#include "../Interfaces/ISimpleNode.h"
+#include "../Interfaces/INodeIterator.h"
+#include "../Interfaces/IArrayNode.h"
+#include "../Interfaces/IMetadata.h"
 
 #include <assert.h>
 

@@ -7,11 +7,11 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
+#include "../Interfaces/BaseInterfaces/IConfigurable.h"
 
 #if !BUILDING_XMPCOMMON_LIB && !SOURCE_COMPILING_XMP_ALL
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../Utilities/TWrapperFunctions.h"
 #include <assert.h>
 
 namespace AdobeXMPCommon {

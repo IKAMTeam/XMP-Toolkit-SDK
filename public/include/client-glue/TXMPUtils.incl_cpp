@@ -11,9 +11,9 @@
 /// \file TXMPUtils.incl_cpp
 /// \brief The implementation of the TXMPUtils template class.
 
-#include "XMP.hpp"
-#include "client-glue/WXMP_Common.hpp"
-#include "client-glue/WXMPUtils.hpp"
+#include "../XMP.hpp"
+#include "WXMP_Common.hpp"
+#include "WXMPUtils.hpp"
 
 // =================================================================================================
 // Implementation Guidelines

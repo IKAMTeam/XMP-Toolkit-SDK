@@ -11,9 +11,9 @@
 // =================================================================================================
 
 
-#include "XMPCore/XMPCoreDefines.h"
-#include "XMPCommon/XMPCommonFwdDeclarations.h"
-#include "XMPCore/XMPCoreLatestInterfaceVersions.h"
+#include "XMPCoreDefines.h"
+#include "../XMPCommon/XMPCommonFwdDeclarations.h"
+#include "XMPCoreLatestInterfaceVersions.h"
 
 namespace AdobeXMPCore {
 	using namespace AdobeXMPCommon;

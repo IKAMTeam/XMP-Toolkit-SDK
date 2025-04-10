@@ -13,14 +13,14 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::ICompositeNodeProxy;
 
-#include "XMPCore/Interfaces/ICompositeNode.h"
+#include "../Interfaces/ICompositeNode.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
 #include <assert.h>
-#include "XMPCore/Interfaces/IPath.h"
-#include "XMPCore/Interfaces/INodeIterator.h"
+#include "../Interfaces/IPath.h"
+#include "../Interfaces/INodeIterator.h"
 
 namespace AdobeXMPCore {
 	ICompositeNodeProxy::ICompositeNodeProxy( pICompositeNode ptr )

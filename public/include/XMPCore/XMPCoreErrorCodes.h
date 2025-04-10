@@ -10,8 +10,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/XMPCoreDefines.h"
-#include "XMPCommon/XMPCommonErrorCodes.h"
+#include "XMPCoreDefines.h"
+#include "../XMPCommon/XMPCommonErrorCodes.h"
 
 namespace AdobeXMPCore {
 

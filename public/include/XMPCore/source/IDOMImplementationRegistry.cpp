@@ -13,15 +13,15 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IDOMImplementationRegistryProxy;
 
-#include "XMPCore/Interfaces/IDOMImplementationRegistry.h"
+#include "../Interfaces/IDOMImplementationRegistry.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
 #include <assert.h>
-#include "XMPCore/Interfaces/IDOMParser.h"
-#include "XMPCore/Interfaces/IDOMSerializer.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "../Interfaces/IDOMParser.h"
+#include "../Interfaces/IDOMSerializer.h"
+#include "../Interfaces/ICoreObjectFactory.h"
 
 namespace AdobeXMPCore {
 

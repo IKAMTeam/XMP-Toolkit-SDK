@@ -19,7 +19,7 @@
 // =================================================================================================
 // All Platform Settings
 // ===========================
-#include "XMP_Environment.h"
+#include "../XMP_Environment.h"
 #if !XMP_WinBuild
     #include <ciso646>
 #endif
@@ -161,7 +161,7 @@
 	#endif
 
 	#ifndef __XMP_Const_h__
-		#include "XMP_Const.h"
+		#include "../XMP_Const.h"
 	#endif
 
 	namespace AdobeXMPCommon {

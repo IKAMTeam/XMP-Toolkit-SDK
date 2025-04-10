@@ -11,7 +11,7 @@
 // =================================================================================================
 
 
-#include "XMPCore/Interfaces/ICompositeNode.h"
+#include "ICompositeNode.h"
 
 namespace AdobeXMPCore {
 

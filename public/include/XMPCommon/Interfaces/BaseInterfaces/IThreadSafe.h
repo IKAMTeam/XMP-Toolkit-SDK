@@ -13,7 +13,7 @@
 // =================================================================================================
 //
 
-#include "XMPCommon/XMPCommonFwdDeclarations.h"
+#include "../../XMPCommonFwdDeclarations.h"
 
 namespace AdobeXMPCommon {
 	

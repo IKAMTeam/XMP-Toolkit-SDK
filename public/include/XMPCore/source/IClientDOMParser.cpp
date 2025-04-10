@@ -7,8 +7,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/IClientDOMParser.h"
-#include "XMPCore/Interfaces/INode.h"
+#include "../Interfaces/IClientDOMParser.h"
+#include "../Interfaces/INode.h"
 
 #if 1//!BUILDING_XMPCORE_LIB
 namespace AdobeXMPCore {

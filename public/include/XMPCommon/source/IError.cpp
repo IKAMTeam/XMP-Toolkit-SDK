@@ -9,13 +9,13 @@
 
 #define FRIEND_CLASS_DECLARATION() friend class IErrorProxy;
 
-#include "XMPCommon/Interfaces/IError.h"
+#include "../Interfaces/IError.h"
 
 #if !BUILDING_XMPCOMMON_LIB && !SOURCE_COMPILING_XMP_ALL
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCommon/Interfaces/IObjectFactory.h"
+#include "../Utilities/TWrapperFunctions.h"
+#include "../Interfaces/IUTF8String.h"
+#include "../Interfaces/IObjectFactory.h"
 
 #include <assert.h>
 

@@ -10,10 +10,10 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "client-glue/WXMP_Common.hpp"
+#include "WXMP_Common.hpp"
 
 #if XMP_StaticBuild	// ! Client XMP_IO objects can only be used in static builds.
-	#include "XMP_IO.hpp"
+	#include "../XMP_IO.hpp"
 #endif
 
 #if __cplusplus

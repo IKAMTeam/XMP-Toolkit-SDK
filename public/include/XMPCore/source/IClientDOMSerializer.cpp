@@ -7,10 +7,10 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/IClientDOMSerializer.h"
-#include "XMPCore/Interfaces/INode.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCore/Interfaces/INameSpacePrefixMap.h"
+#include "../Interfaces/IClientDOMSerializer.h"
+#include "../Interfaces/INode.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
+#include "../Interfaces/INameSpacePrefixMap.h"
 
 #if !BUILDING_XMPCORE_LIB
 namespace AdobeXMPCore {

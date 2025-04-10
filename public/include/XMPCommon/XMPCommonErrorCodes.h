@@ -10,7 +10,7 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/XMPCommonDefines.h"
+#include "XMPCommonDefines.h"
 
 namespace AdobeXMPCommon {
 

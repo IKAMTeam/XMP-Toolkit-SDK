@@ -13,15 +13,15 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IMetadataConverterUtilsProxy;
 
-#include "XMPCore/Interfaces/IMetadataConverterUtils.h"
+#include "../Interfaces/IMetadataConverterUtils.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCore/Interfaces/IMetadata.h"
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
-#include "XMPCore/XMPCoreFwdDeclarations.h"
+#include "../Interfaces/IMetadata.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
+#include "../Interfaces/ICoreObjectFactory.h"
+#include "../XMPCoreFwdDeclarations.h"
 
 #include <assert.h>
 namespace AdobeXMPCore {

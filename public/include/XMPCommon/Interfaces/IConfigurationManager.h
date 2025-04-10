@@ -14,10 +14,10 @@
 // =================================================================================================
 //
 
-#include "XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
+#include "BaseInterfaces/ISharedObject.h"
+#include "BaseInterfaces/IVersionable.h"
 
-#include "XMPCommon/XMPCommonFwdDeclarations.h"
+#include "../XMPCommonFwdDeclarations.h"
 
 namespace AdobeXMPCommon {
 

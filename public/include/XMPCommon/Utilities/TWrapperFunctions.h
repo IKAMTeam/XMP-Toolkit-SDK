@@ -10,7 +10,7 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/Interfaces/IError.h"
+#include "../Interfaces/IError.h"
 
 #if SUPPORT_VARIADIC_TEMPLATES
 //! \cond XMP_INTERNAL_DOCUMENTATION
@@ -247,6 +247,6 @@ namespace AdobeXMPCommon {
 
 //! \endcond
 #else
-	#include "XMPCommon/Utilities/TWrapperFunctions2.h"
+	#include "TWrapperFunctions2.h"
 #endif
 #endif  // TWrapperFunctions_h__

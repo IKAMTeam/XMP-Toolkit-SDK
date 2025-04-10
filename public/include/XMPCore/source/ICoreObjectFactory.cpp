@@ -7,11 +7,11 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "../Interfaces/ICoreObjectFactory.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
 #include <assert.h>
 
 #if LINKING_XMPCORE_LIB

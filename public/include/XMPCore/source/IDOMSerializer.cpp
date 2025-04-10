@@ -13,14 +13,14 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IDOMSerializerProxy;
 
-#include "XMPCore/Interfaces/IDOMSerializer.h"
+#include "../Interfaces/IDOMSerializer.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCore/Interfaces/INode.h"
-#include "XMPCore/Interfaces/INameSpacePrefixMap.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
+#include "../Interfaces/INode.h"
+#include "../Interfaces/INameSpacePrefixMap.h"
 
 #include <assert.h>
 
