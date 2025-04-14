@@ -10,8 +10,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/INode.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
+#include "INode.h"
+#include "../../XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
 
 namespace AdobeXMPCore {
 

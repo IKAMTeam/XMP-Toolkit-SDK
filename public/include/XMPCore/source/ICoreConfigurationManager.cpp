@@ -13,12 +13,12 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::ICoreConfigurationManagerProxy;
 
-#include "XMPCore/Interfaces/ICoreConfigurationManager.h"
+#include "../Interfaces/ICoreConfigurationManager.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../Interfaces/ICoreObjectFactory.h"
 #include <assert.h>
 
 namespace AdobeXMPCore {

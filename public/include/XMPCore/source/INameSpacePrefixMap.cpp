@@ -13,13 +13,13 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::INameSpacePrefixMapProxy;
 
-#include "XMPCore/Interfaces/INameSpacePrefixMap.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "../Interfaces/INameSpacePrefixMap.h"
+#include "../Interfaces/ICoreObjectFactory.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
 
 #include <assert.h>
 

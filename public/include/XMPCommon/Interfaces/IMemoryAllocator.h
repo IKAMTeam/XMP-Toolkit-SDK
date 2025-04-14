@@ -9,9 +9,9 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
+#include "BaseInterfaces/IVersionable.h"
 
-#include "XMPCommon/XMPCommonFwdDeclarations.h"
+#include "../XMPCommonFwdDeclarations.h"
 
 namespace AdobeXMPCommon {
 

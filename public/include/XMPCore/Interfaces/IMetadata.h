@@ -10,7 +10,7 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/Interfaces/IStructureNode.h"
+#include "IStructureNode.h"
 
 namespace AdobeXMPCore {
 

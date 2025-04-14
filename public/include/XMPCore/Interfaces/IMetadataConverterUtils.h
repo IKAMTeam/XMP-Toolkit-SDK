@@ -11,12 +11,12 @@
 // =================================================================================================
 #include <string>
 #define TXMP_STRING_TYPE std::string
-#include "XMP.hpp"
+#include "../../XMP.hpp"
 
-#include "XMPCore/XMPCoreFwdDeclarations.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
+#include "../XMPCoreFwdDeclarations.h"
+#include "../../XMPCommon/Interfaces/BaseInterfaces/ISharedObject.h"
+#include "../../XMPCommon/Interfaces/BaseInterfaces/IVersionable.h"
+#include "../../XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
 
 
 

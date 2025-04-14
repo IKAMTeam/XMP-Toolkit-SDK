@@ -13,14 +13,14 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::IPathSegmentProxy;
 
-#include "XMPCore/Interfaces/IPathSegment.h"
+#include "../Interfaces/IPathSegment.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IUTF8String.h"
-#include "XMPCommon/Interfaces/IError.h"
-#include "XMPCore/Interfaces/ICoreObjectFactory.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Interfaces/IUTF8String.h"
+#include "../../XMPCommon/Interfaces/IError.h"
+#include "../Interfaces/ICoreObjectFactory.h"
 
 #include <assert.h>
 

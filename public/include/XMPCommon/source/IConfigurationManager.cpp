@@ -9,12 +9,12 @@
 
 #define FRIEND_CLASS_DECLARATION() friend class IConfigurationManagerProxy;
 
-#include "XMPCommon/Interfaces/IConfigurationManager.h"
+#include "../Interfaces/IConfigurationManager.h"
 
 #if !BUILDING_XMPCOMMON_LIB && !SOURCE_COMPILING_XMP_ALL
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
-#include "XMPCommon/Interfaces/IError.h"
+#include "../Utilities/TWrapperFunctions.h"
+#include "../Interfaces/IError.h"
 
 #include <assert.h>
 

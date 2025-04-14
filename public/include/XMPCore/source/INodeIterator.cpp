@@ -13,11 +13,11 @@ namespace AdobeXMPCore {
 
 #define FRIEND_CLASS_DECLARATION() friend class AdobeXMPCore::INodeIteratorProxy;
 
-#include "XMPCore/Interfaces/INodeIterator.h"
+#include "../Interfaces/INodeIterator.h"
 
 #if !BUILDING_XMPCORE_LIB && !SOURCE_COMPILING_XMPCORE_LIB
 
-#include "XMPCommon/Utilities/TWrapperFunctions.h"
+#include "../../XMPCommon/Utilities/TWrapperFunctions.h"
 #include <assert.h>
 
 namespace AdobeXMPCore {

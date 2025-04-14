@@ -10,8 +10,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/XMPCommonDefines.h"
-#include "XMPCommon/XMPCommonLatestInterfaceVersions.h"
+#include "XMPCommonDefines.h"
+#include "XMPCommonLatestInterfaceVersions.h"
 #include <vector>
 
 #if SUPPORT_SHARED_POINTERS_IN_STD

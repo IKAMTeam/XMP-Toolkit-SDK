@@ -7,10 +7,10 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/XMPCoreFwdDeclarations.h"
-#include "XMPCommon/Interfaces/IError.h"
-#include "XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
-#include "XMPCore/XMPCoreErrorCodes.h"
+#include "../XMPCoreFwdDeclarations.h"
+#include "../../XMPCommon/Interfaces/IError.h"
+#include "../../XMPCommon/Interfaces/BaseInterfaces/IConfigurable.h"
+#include "../XMPCoreErrorCodes.h"
 
 namespace AdobeXMPCore {
 

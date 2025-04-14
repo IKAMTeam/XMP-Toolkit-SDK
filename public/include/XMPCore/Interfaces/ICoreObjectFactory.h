@@ -9,8 +9,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCore/XMPCoreFwdDeclarations.h"
-#include "XMPCommon/Interfaces/IObjectFactory.h"
+#include "../XMPCoreFwdDeclarations.h"
+#include "../../XMPCommon/Interfaces/IObjectFactory.h"
 
 namespace AdobeXMPCore {
 

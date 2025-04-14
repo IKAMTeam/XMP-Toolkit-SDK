@@ -7,8 +7,8 @@
 // of the Adobe license agreement accompanying it. 
 // =================================================================================================
 
-#include "XMPCommon/Interfaces/IErrorNotifier.h"
-#include "XMPCommon/Interfaces/IError.h"
+#include "../Interfaces/IErrorNotifier.h"
+#include "../Interfaces/IError.h"
 
 namespace AdobeXMPCommon {
 	uint32 APICALL IErrorNotifier_v1::notify( pcIError_base error, uint32 & exceptionThrown ) __NOTHROW__ {
