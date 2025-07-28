@@ -17,12 +17,12 @@ let package = Package(
         .binaryTarget(
             name: "XMPCore",
             url: "https://github.com/IKAMTeam/XMP-Toolkit-SDK/releases/download/1.0.0_v2025.03/XMPCore.xcframework.zip",
-            checksum: "e0380b2b4596b772e0baca3e7bd84a355bbe469c22e3dbd2352a9d06e837ff4b"
+            checksum: "1b09fb18b4823961410d37c115af5b79db2cc590eb3596b8fba1ebabc3bbd156"
         ),
         .binaryTarget(
             name: "XMPFiles",
             url: "https://github.com/IKAMTeam/XMP-Toolkit-SDK/releases/download/1.0.0_v2025.03/XMPFiles.xcframework.zip",
-            checksum: "5ce733fd439df5da0e710b2c27e493cbde83b87c5d5bd64a60ba538170da356a"
+            checksum: "1cd383e2ba24ca9fdfcf6639acf584ef04fb345530e19fd555981e1ce63d1330"
         )
     ]
 )
