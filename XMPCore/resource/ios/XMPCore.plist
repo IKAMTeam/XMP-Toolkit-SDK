@@ -11,7 +11,7 @@
 	<key>CFBundleGetInfoString</key>
 	<string>XMP Core kBasicVersion, kXMP_Copyright</string>
 	<key>CFBundleShortVersionString</key>
-	<string>XMP Core kBasicVersion</string>
+	<string>kBasicVersion</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleSignature</key>
@@ -24,5 +24,7 @@
 	<string>XMP Core</string>
 	<key>ProductVersion</key>
 	<string>XMPCORE_API_VERSION</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 </dict>
 </plist>
